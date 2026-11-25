@@ -4,6 +4,13 @@ All notable changes to `tilttek/generator-bundle` will be documented in this fil
 
 Updates should follow the [Keep a CHANGELOG](https://keepachangelog.com/) principles.
 
+## 0.2.4-alpha - 2026-11-25
+
+### Security
+
+- `twig/twig` 3.31.1 or later required, for the fixes of its sandbox in 3.31.1; the templates of the generators render
+  in a `Twig\Sandbox\Sandbox` of `tilttek/generator`.
+
 ## 0.2.3-alpha - 2026-11-24
 
 ### Changed
